@@ -1,0 +1,20 @@
+{
+  "tableName": "professor",
+  "columns": {
+    "professorId": "int",
+    "Firstname": "string",
+    "age": "double",
+    "salary": "int",
+    "degree": "string",
+    "faculty": "int"
+  },
+  "primaryKeys": ["professorId"],
+  "foreignKeys": [
+    {
+      "referencedTableName": "faculty",
+      "columnRelation": {
+        "faculty": "facultyId"
+      }
+    }
+  ]
+}

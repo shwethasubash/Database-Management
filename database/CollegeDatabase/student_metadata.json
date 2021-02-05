@@ -1,0 +1,19 @@
+{
+  "tableName": "student",
+  "columns": {
+    "Id": "int",
+    "Firstname": "string",
+    "age": "double",
+    "Address": "string",
+    "cId": "int"
+  },
+  "primaryKeys": ["Id", "cId"],
+  "foreignKeys": [
+    {
+      "referencedTableName": "course",
+      "columnRelation": {
+        "cId": "courseID"
+      }
+    }
+  ]
+}

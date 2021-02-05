@@ -1,0 +1,8 @@
+{
+  "tableName": "employee",
+  "columns": {
+    "ID": "int",
+    "name": "string",
+    "age": "double"
+  }
+}

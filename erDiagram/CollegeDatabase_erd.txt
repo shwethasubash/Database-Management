@@ -1,0 +1,9 @@
+TABLES
+course (*courseID, courseName, taughtBy)
+faculty (*facultyId, Name)
+professor (*professorId, Firstname, age, salary, degree, faculty) references faculty 
+student (*Id, Firstname, age, Address, *cId) references course 
+
+FOREIGN KEY RELATIONSHIPS
+professor (faculty) -> faculty (facultyId)
+student (cId) -> course (courseID)

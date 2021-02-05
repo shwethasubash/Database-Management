@@ -1,0 +1,8 @@
+{
+  "tableName": "faculty",
+  "columns": {
+    "facultyId": "int",
+    "Name": "string"
+  },
+  "primaryKeys": ["facultyId"]
+}

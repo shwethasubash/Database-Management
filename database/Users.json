@@ -1,0 +1,17 @@
+[
+  {
+    "username": "root",
+    "password": "root",
+    "database": [
+      "CollegeDatabase",
+      "demo"
+    ]
+  },
+  {
+    "username": "group11",
+    "password": "pass",
+    "database": [
+      "demo"
+    ]
+  }
+]

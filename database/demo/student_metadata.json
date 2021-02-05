@@ -1,0 +1,10 @@
+{
+  "tableName": "student",
+  "columns": {
+    "name": "STRING",
+    "department": "STRING"
+  },
+  "primaryKeys": [
+    "name"
+  ]
+}
